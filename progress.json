@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T02:29:33.724Z",
+  "generated_at": "2026-09-24T02:45:09.868Z",
   "items": {
     "problem:185": {
       "kind": "problem",
@@ -39,6 +39,32 @@
       "last_pushed_at": "2026-09-24T02:29:31.671Z",
       "language": "python",
       "lines": 31
+    },
+    "problem:70": {
+      "kind": "problem",
+      "id": "70",
+      "title": "Calculate Image Brightness",
+      "difficulty": "easy",
+      "category": "Computer Vision",
+      "url": "https://www.deep-ml.com/problems/70",
+      "path": "problems/0070-calculate-image-brightness",
+      "first_solved_at": "2026-09-23T15:13:56.094Z",
+      "last_pushed_at": "2026-09-23T15:13:56.094Z",
+      "language": "python",
+      "lines": 24
+    },
+    "problem:82": {
+      "kind": "problem",
+      "id": "82",
+      "title": "Grayscale Image Contrast Calculator",
+      "difficulty": "easy",
+      "category": "Computer Vision",
+      "url": "https://www.deep-ml.com/problems/82",
+      "path": "problems/0082-grayscale-image-contrast-calculator",
+      "first_solved_at": "2026-09-23T15:24:53.795Z",
+      "last_pushed_at": "2026-09-23T15:24:53.795Z",
+      "language": "python",
+      "lines": 12
     }
   }
 }
