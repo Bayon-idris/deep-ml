@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**5** solved · 5 problems · 0 labs · 0 math
+**6** solved · 6 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -12,6 +12,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 
 | | Difficulty | Solved | |
 | --- | --- | --- | --- |
+| [Apply Zero Padding to an Image](https://www.deep-ml.com/problems/239) | easy | 2026-09-24 | [solution](problems/0239-apply-zero-padding-to-an-image) |
 | [Calculate Image Brightness](https://www.deep-ml.com/problems/70) | easy | 2026-09-23 | [solution](problems/0070-calculate-image-brightness) |
 | [Convert RGB Image to Grayscale](https://www.deep-ml.com/problems/237) | easy | 2026-09-24 | [solution](problems/0237-convert-rgb-image-to-grayscale) |
 | [Flip an Image Horizontally or Vertically](https://www.deep-ml.com/problems/238) | easy | 2026-09-24 | [solution](problems/0238-flip-an-image-horizontally-or-vertically) |
