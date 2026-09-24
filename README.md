@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**1** solved · 1 problems · 0 labs · 0 math
+**2** solved · 2 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -12,6 +12,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 
 | | Difficulty | Solved | |
 | --- | --- | --- | --- |
+| [Convert RGB Image to Grayscale](https://www.deep-ml.com/problems/237) | easy | 2026-09-24 | [solution](problems/0237-convert-rgb-image-to-grayscale) |
 | [Optical Flow EPE with Masks (OmniWorld-style metric)](https://www.deep-ml.com/problems/185) | medium | 2026-09-24 | [solution](problems/0185-optical-flow-epe-with-masks-omniworld-style-metric) |
 
 ---
