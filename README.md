@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**9** solved · 9 problems · 0 labs · 0 math
+**10** solved · 10 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -21,6 +21,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Bilinear Image Resizing](https://www.deep-ml.com/problems/240) | medium | 2026-09-27 | [solution](problems/0240-bilinear-image-resizing) |
 | [Optical Flow EPE with Masks (OmniWorld-style metric)](https://www.deep-ml.com/problems/185) | medium | 2026-09-24 | [solution](problems/0185-optical-flow-epe-with-masks-omniworld-style-metric) |
 | [Sobel Edge Detection](https://www.deep-ml.com/problems/241) | medium | 2026-09-27 | [solution](problems/0241-sobel-edge-detection) |
+| [PCA Color Augmentation](https://www.deep-ml.com/problems/191) | hard | 2026-10-01 | [solution](problems/0191-pca-color-augmentation) |
 
 ---
 
