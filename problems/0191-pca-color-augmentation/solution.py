@@ -17,16 +17,12 @@ def pca_color_augmentation(image: np.ndarray, alpha: np.ndarray) -> np.ndarray:
     cov_matrix = np.cov(image_flatten, rowvar=False)
     eigenvalues, eigenvectors = np.linalg.eigh(cov_matrix)
 
-    # Sort by eigenvalue, largest first
     idx = np.argsort(eigenvalues)[::-1]
     eigenvalues = eigenvalues[idx]
     eigenvectors = eigenvectors[:, idx]
 
-    # FIX 1: tiny negative eigenvalues (float errors) -> 0, avoids nan
     eigenvalues = np.maximum(eigenvalues, 0)
 
-    # FIX 2: fixed sign convention, independent of the LAPACK backend
-    # PC1: blue component > 0 | PC2: green + blue > 0 | PC3: green component > 0
     sign_refs = np.array([[0, 0, 1], [0, 1, 1], [0, 1, 0]], dtype=float)
     for k in range(num_channels):
         if np.dot(eigenvectors[:, k], sign_refs[k]) < 0:
