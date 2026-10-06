@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T11:43:09.489Z",
+  "generated_at": "2026-10-06T20:28:25.450Z",
   "items": {
     "problem:185": {
       "kind": "problem",
@@ -130,6 +130,19 @@
       "last_pushed_at": "2026-10-01T11:43:09.312Z",
       "language": "python",
       "lines": 36
+    },
+    "problem:1237": {
+      "kind": "problem",
+      "id": "1237",
+      "title": "Batch a TensorDataset with DataLoader",
+      "difficulty": "easy",
+      "category": "Pytorch",
+      "url": "https://www.deep-ml.com/problems/1237",
+      "path": "problems/1237-batch-a-tensordataset-with-dataloader",
+      "first_solved_at": "2026-10-06T20:28:24.240Z",
+      "last_pushed_at": "2026-10-06T20:28:24.240Z",
+      "language": "python",
+      "lines": 23
     }
   }
 }
