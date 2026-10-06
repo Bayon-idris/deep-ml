@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T22:52:36.245Z",
+  "generated_at": "2026-10-06T22:56:10.959Z",
   "items": {
     "problem:185": {
       "kind": "problem",
@@ -153,7 +153,7 @@
       "url": "https://www.deep-ml.com/problems/1253",
       "path": "problems/1253-anchor-matching-via-iou-assignment",
       "first_solved_at": "2026-10-06T22:52:35.298Z",
-      "last_pushed_at": "2026-10-06T22:52:35.298Z",
+      "last_pushed_at": "2026-10-06T22:56:10.639Z",
       "language": "python",
       "lines": 79
     }

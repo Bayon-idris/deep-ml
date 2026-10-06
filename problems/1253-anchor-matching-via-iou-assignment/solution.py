@@ -70,9 +70,9 @@ def match_anchors(anchors, gt_boxes, pos_threshold=0.5, neg_threshold=0.4):
             labels[i] = 0    
 
     for j in range(M):
-        colonne = iou_matrix[:, j]         
-        meilleur_anchor = np.argmax(colonne)
-        labels[meilleur_anchor] = 1
-        matched_gt[meilleur_anchor] = j
+        column = iou_matrix[:, j]         
+        best_anchor = np.argmax(column)
+        labels[best_anchor] = 1
+        matched_gt[best_anchor] = j
 
     return labels , matched_gt    
